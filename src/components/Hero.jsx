@@ -10,7 +10,7 @@ export default function Hero() {
         transition={{ duration: 1 }}
         className="display-4 fw-bold"
       >
-        Hey, I'm Vedanth 👋
+        Hey, I'm Teju 👋
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 20 }}
@@ -18,7 +18,7 @@ export default function Hero() {
         transition={{ delay: 0.3, duration: 1 }}
         className="lead text-muted"
       >
-        Software Engineer | Full Stack Dev | AWS Certified | DevOps Enthusiast | RelationShip advisor
+        Software Engineer | Full Stack Dev | AWS Certified | DevOps Enthusiast 
       </motion.p>
     </Container>
   );

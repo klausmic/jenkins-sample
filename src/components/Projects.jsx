@@ -4,12 +4,37 @@ const projects = [
   {
     title: "Concierto Cloud POC",
     description: "Built a multi-cloud management POC using AWS, Jenkins, and custom automation scripts.",
-    link: "https://github.com/vedanth/concierto-poc",
+    link: "https://github.com/klausmic/",
   },
   {
     title: "Medical Services Website",
     description: "Full-stack website for managing medical resources with React and Node.js.",
-    link: "https://github.com/vedanth/med-care",
+    link: "https://github.com/klausmic",
+  },
+  {
+    title: "Dockerized MERN Portfolio",
+    description: "Containerized a MERN stack portfolio website using Docker and deployed with Docker Compose for easier scaling.",
+    link: "https://github.com/klausmic/docker-mern-portfolio",
+  },
+  {
+    title: "Kubernetes Microservices Deployment",
+    description: "Deployed a set of Node.js microservices on a Kubernetes cluster with Ingress and Auto-scaling.",
+    link: "https://github.com/klausmic/k8s-microservices",
+  },
+  {
+    title: "Terraform Infra as Code",
+    description: "Automated the provisioning of AWS infrastructure (EC2, VPC, S3) using Terraform modules.",
+    link: "https://github.com/klausmic/terraform-infra",
+  },
+  {
+    title: "CI/CD with Jenkins",
+    description: "Implemented a full CI/CD pipeline using Jenkins for a React app with GitHub Webhooks and Nginx deployment.",
+    link: "https://github.com/klausmic/jenkins-cicd-pipeline",
+  },
+  {
+    title: "Monitoring with Prometheus & Grafana",
+    description: "Set up infrastructure monitoring for Linux servers using Prometheus, Node Exporter, and Grafana dashboards.",
+    link: "https://github.com/klausmic/monitoring-stack",
   },
 ];
 

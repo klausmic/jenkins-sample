@@ -1,0 +1,18 @@
+.glass-navbar {
+  background: rgba(30, 30, 30, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.text-gradient {
+  background: linear-gradient(45deg, #00d4ff, #7a00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link:hover {
+  color: #00d4ff !important;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+}

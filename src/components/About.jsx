@@ -1,26 +1,37 @@
 import { Container, Row, Col, Image } from 'react-bootstrap';
+import { Fade, Slide } from 'react-awesome-reveal';
+import './About.css';
 
 export default function About() {
   return (
     <Container id="about" className="py-5">
-      <h2 className="text-center mb-4">About Me</h2>
+      <Fade direction="down" triggerOnce>
+        <h2 className="text-center mb-5 stylish-heading">👨‍💻 About Me</h2>
+      </Fade>
       <Row className="align-items-center">
-        <Col md={4} className="text-center">
-          <Image
-            src="https://via.placeholder.com/200"
-            roundedCircle
-            alt="Vedanth"
-            fluid
-          />
+        <Col md={4} className="text-center mb-4 mb-md-0">
+          <Slide direction="left" triggerOnce>
+            <div className="image-wrapper">
+              <Image
+                src="https://via.placeholder.com/200"
+                roundedCircle
+                alt="Vedanth"
+                fluid
+                className="about-image"
+              />
+            </div>
+          </Slide>
         </Col>
         <Col md={8}>
-          <p>
-            I'm a passionate Software Engineer currently working at Trianz. With
-            experience in Full Stack Development, DevOps, and Cloud, I’ve built
-            scalable solutions using React, Node.js, AWS, Jenkins, Docker,
-            Kubernetes and more. I love blending development with cloud
-            automation and believe in building smart, resilient systems.
-          </p>
+          <Slide direction="right" triggerOnce>
+            <div className="about-text-box">
+              <p className="about-text">
+                🚀 I'm a passionate <strong>Software Engineer</strong> at <strong>Trianz</strong>, blending Full Stack Development, DevOps, and Cloud into smart solutions. <br /><br />
+                🔧 I’ve built scalable systems using <strong>React, Node.js, AWS, Jenkins, Docker, Kubernetes</strong> and more. <br /><br />
+                💡 I thrive on cloud automation and love creating resilient infrastructures that empower businesses and users alike.
+              </p>
+            </div>
+          </Slide>
         </Col>
       </Row>
     </Container>
