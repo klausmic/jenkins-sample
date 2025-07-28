@@ -18,7 +18,7 @@ export default function Hero() {
         transition={{ delay: 0.3, duration: 1 }}
         className="lead text-muted"
       >
-        Software Engineer | Full Stack Dev | AWS Certified | DevOps Enthusiast
+        Software Engineer | Full Stack Dev | AWS Certified | DevOps Enthusiast | RelationShip advisor
       </motion.p>
     </Container>
   );
