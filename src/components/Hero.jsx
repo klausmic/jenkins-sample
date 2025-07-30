@@ -10,7 +10,7 @@ export default function Hero() {
         transition={{ duration: 1 }}
         className="display-4 fw-bold"
       >
-        Hey, I'm Teju 👋
+        Hey, I'm Vedanth 👋
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 20 }}
